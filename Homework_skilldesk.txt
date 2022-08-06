@@ -1,0 +1,42 @@
+Level 1
+
+1. SELECT first_name
+FROM customers;
+
+
+
+
+
+
+
+
+Level 2 
+
+
+CREATE TABLE Users
+    ( id    NUMERIC(6),
+	  name     VARCHAR(20),
+	  phone  VARCHAR(20),
+	  country         VARCHAR(10)
+       ) ;
+	   
+INSERT INTO Users VALUES 
+        ( 1,
+		'John Snow',
+		'10000012345',
+		'USA'
+        );
+		
+INSERT INTO Users VALUES 
+        ( 2,
+		'Brand Stark',
+		'10000012346',
+		'Germany'
+        );
+
+INSERT INTO Users VALUES 
+        ( 3,
+		'Arya Stark',
+		'10000012347',
+		'UK'
+        );		
