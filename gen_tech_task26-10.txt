@@ -1,0 +1,38 @@
+1. Пример документа
+{
+order_number: 2345678,
+status: 'created',
+client: {
+		first_name: 'Test',
+		last_name: 'Testov',
+		birth_date: '01.01.1990',
+		address: {
+		street: 'Test str. 1',
+		city:  'London'}
+		email: 'test@test.com',
+		phone: 12343}
+product:
+[{product_name: 'laptop',
+	product_model: 'ADGF',
+	product_count: 1,
+	product_amount: 1450
+	},
+	{product_name: 'iphone',
+	product_model: '13',
+	product_count: 1,
+	product_amount: 1400
+	}
+	]
+	price: 2850,
+	discount: 0,
+	delivery: true,
+	is_paid: true,
+	is_returned: false
+	}
+2. Пример бизнес-процессов:
+создание заказа клиентом
+передача заказа в сборку - смена статуса заказа
+передача заказа в доставку - смена статуса заказа
+изменение позиций заказа 
+возврат заказа - изменение статуса и поля в заказе
+отмена заказа - пометка заказа удаленным 
